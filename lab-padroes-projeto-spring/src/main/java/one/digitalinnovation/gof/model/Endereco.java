@@ -1,5 +1,6 @@
 package one.digitalinnovation.gof.model;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 /*
@@ -12,6 +13,7 @@ import jakarta.persistence.Id;
  * @author faljor
  */
 
+@Entity
 public class Endereco {
 	
 	@Id
